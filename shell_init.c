@@ -104,7 +104,5 @@ void shell_exit(char **command)
 
 	sta_tus = _atoi(command[1]);
 	free_dp(command);
-	if (sta_tus >= 0 && sta_tus <= 255)
-		exit(sta_tus);
-	exit(255);
+	exit(sta_tus);
 }
