@@ -44,6 +44,11 @@ void create_child(char **command, char *name, char **env, int cicles)
   */
 int change_dir(const char *path)
 {
+	char *buf = NULL;
+	size_t size = 1024;
+
+	if (path == NULL)
+		path = getcwd(buf, size);
 	if (chdir(path) == -1)
 	{
 		perror(path);
