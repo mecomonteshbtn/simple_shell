@@ -35,3 +35,19 @@ void create_child(char **command, char *name, char **env, int cicles)
 		free_dp(command);
 	}
 }
+
+
+/**
+  * change_dir - Afunction that changes working directory.
+  * @path: The new current working directory.
+  * Return: 0 on success, -1 on failure.
+  */
+int change_dir(const char *path)
+{
+	if (chdir(path) == -1)
+	{
+		perror(path);
+		return (98);
+	}
+	return (1);
+}

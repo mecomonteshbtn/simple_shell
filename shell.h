@@ -23,6 +23,7 @@ void shell_exit(char **command);
 /*==================================================*/
 
 void create_child(char **command, char *name, char **env, int cicles);
+int change_dir(const char *path);
 
 /*==================================================*/
 /*============        Execute       ==============*/
