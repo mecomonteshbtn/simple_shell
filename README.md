@@ -95,7 +95,7 @@ valgrind --leak-check=full ./Hell_Shell
 ```
 ./Hell_Shell
 ```
-- This program provides a simple manual to know and get familiar with the shell. Open it typing: 
+- This program provides a simple manual to know and get familiar with the shell. Open it by typing: 
 ```
 man ./man_1_simple_shell
 ```
