@@ -13,7 +13,7 @@ This repository contains the files to simulate a basic **Unix Shell** with its r
 
 The predominantly used calls are **read**, **write**, **open**, **execve**, **exit**, **fflush**, **fork**, **free**, **malloc**, **getline**, **isatty**, **perror**, **strtok**, **wait**, and **waitpid**.
 
-This simple shell is a shell interface written in C programming language that gives to the user a prompt *Hell_Shell>> *, after it accepts, it executes a user inputted command in a separate process called child process.
+This simple shell is a Shell interface written in C programming language that gives to the user a prompt *Hell_Shell>> *, after it accepts, it executes a user inputted command in a separate process called child process.
 
 ## This shell provides the following features:
 
@@ -95,7 +95,7 @@ valgrind --leak-check=full ./Hell_Shell
 ```
 ./Hell_Shell
 ```
-- This program provides a simple manual to know and get familiar with the shell. Open it typing: 
+- This program provides a simple manual to know and get familiar with the shell. Open it by typing: 
 ```
 man ./man_1_simple_shell
 ```
